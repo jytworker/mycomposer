@@ -1,0 +1,14 @@
+{
+	"autoload":{
+		"psr-4":{"":"class/"}
+	},
+	"require":{
+		"phptestsoft/json":"v1.0"
+	},
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.phpcomposer.com"
+		}
+	}
+}
