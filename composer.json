@@ -1,14 +1,13 @@
 {
-	"autoload":{
-		"psr-4":{"":"class/"}
-	},
+	"name":"mycomposer/stringutils",
+	"description":"这是我的第一个composer包",
 	"require":{
-		"phptestsoft/json":"v1.0"
+		"php":"^5.3.3||^7.0"
 	},
-	"repositories": {
-		"packagist": {
-			"type": "composer",
-			"url": "https://packagist.phpcomposer.com"
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"mycomposer\\": "src/"
 		}
-	}
+	},
 }
