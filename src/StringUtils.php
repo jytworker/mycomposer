@@ -2,6 +2,9 @@
 
 namespace mycomposer;
 
+/**
+ * 这是一个处理字符串的类
+ * /
 class StringUtils
 {
 	public static function isEmpty($str)
