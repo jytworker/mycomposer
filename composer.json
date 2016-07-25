@@ -6,8 +6,6 @@
 	},
 	"minimum-stability": "stable",
 	"autoload": {
-		"psr-4": {
-			"mycomposer\\": "src/"
-		}
-	},
+		"psr-4": {"mycomposer\\":"src/"}
+	}
 }
