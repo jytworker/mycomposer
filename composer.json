@@ -2,7 +2,7 @@
 	"name":"mycomposer/stringutils",
 	"description":"这是我的第一个composer包",
 	"require":{
-		"php":"^5.3.3||^7.0"
+		"php":">=5.3.3"
 	},
 	"minimum-stability": "stable",
 	"autoload": {
